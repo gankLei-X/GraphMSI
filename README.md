@@ -7,7 +7,7 @@ Developer is Lei Guo from Fuzhou University of China.
 # Overflow of GraphMSI model
 
 <div align=center>
-<img src="https://github.com/user-attachments/assets/efb1c3d8-8ae4-4719-b650-994db1a63c72" width="750" height="750" /><br/>
+<img src="https://github.com/user-attachments/assets/efb1c3d8-8ae4-4719-b650-994db1a63c72" width="650" height="650" /><br/>
 </div>
 
 __Overflow of the proposed GraphMSI for MSI segmentation__. (A) GraphMSI is designed to integrate the metabolite profiles and spatial location for each spot to generate the segmentation results for spatial heterogeneity analysis. 
