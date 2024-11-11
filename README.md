@@ -41,7 +41,7 @@ cd to the GraphMSI fold
 
 If you want to perfrom iSegMSI for unsupervised segmentation, taking mouse kidney data as an example, run:
 
-    python run.py --input_Matrix kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
+    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
 
 If you want to perfrom iSegMSI for interactive segmentation, taking fetus mouse data as an example, run:
 
