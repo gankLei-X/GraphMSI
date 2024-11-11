@@ -39,10 +39,9 @@ The input is the preprocessed MSI data with two-dimensional shape [X*Y,P], where
 
 cd to the GraphMSI fold
 
-If you want to perfrom iSegMSI for unsupervised segmentation, taking fetus mouse data as an example, run:
+If you want to perfrom iSegMSI for unsupervised segmentation, taking mouse kidney data as an example, run:
 
-    python run.py -input_file .../data/fetus_mouse.txt --input_shape 202 107 1237 --DR_mode umap --n_components 3 --use_scribble 0 --output_file output.txt
-
+    python run.py --input_Matrix kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
 
 If you want to perfrom iSegMSI for interactive segmentation, taking fetus mouse data as an example, run:
 
