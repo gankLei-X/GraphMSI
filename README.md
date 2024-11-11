@@ -33,3 +33,25 @@ Then, the spatial neighborhood graph is constructed based on the spot coordinate
 # Quickly start
 
 ## Input
+The input is the preprocessed MSI data with two-dimensional shape [X*Y,P], where X and Y represent the pixel numbers of horizontal and vertical coordinates of MSI data, and P represents the number of ions.
+
+## Run GraphMSI model
+
+cd to the GraphMSI fold
+
+If you want to perfrom iSegMSI for unsupervised segmentation, taking fetus mouse data as an example, run:
+
+    python run.py -input_file .../data/fetus_mouse.txt --input_shape 202 107 1237 --DR_mode umap --n_components 3 --use_scribble 0 --output_file output.txt
+
+
+If you want to perfrom iSegMSI for interactive segmentation, taking fetus mouse data as an example, run:
+
+    python run.py -input_file .../data/fetus_mouse.txt --input_shape 202 107 1237 --DR_mode umap --n_components 3 --use_scribble 1 -- input_scribble .../data/fetus_mouse_scribble.txt --output_file output.txt
+
+If you want to perfrom iSegMSI for hyperparameter search, taking fetus mouse data as an example, run:
+
+    python hyperparameter_earch.py -input_file .../data/fetus_mouse.txt --input_shape 202 107 1237 --DR_mode umap --n_components 3 --use_scribble 0 --output_file output
+    
+# Contact
+
+Please contact me if you have any help: gl5121405@gmail.com
