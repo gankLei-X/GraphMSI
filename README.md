@@ -39,17 +39,21 @@ The input is the preprocessed MSI data with two-dimensional shape [X*Y,P], where
 
 cd to the GraphMSI fold
 
-If you want to perfrom iSegMSI for unsupervised segmentation, taking mouse kidney data as an example, run:
+If you want to perform cut-off selectin GUI, taking mouse kidney data as an example, run:
+
+    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --output_file output
+
+If you want to perfrom GraphMSI for unsupervised segmentation, taking mouse kidney data as an example, run:
 
     python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
 
-If you want to perfrom iSegMSI for interactive segmentation, taking fetus mouse data as an example, run:
+If you want to perfrom GraphMSI with scribble-interactive mode, taking mouse fetus data as an example, run:
 
-    python run.py -input_file .../data/fetus_mouse.txt --input_shape 202 107 1237 --DR_mode umap --n_components 3 --use_scribble 1 -- input_scribble .../data/fetus_mouse_scribble.txt --output_file output.txt
+    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
 
-If you want to perfrom iSegMSI for hyperparameter search, taking fetus mouse data as an example, run:
+If you want to perfrom GraphMSI with knowledge-transfer mode, taking 3D cancer cell spheroids (CCS) data as an example, run:
 
-    python hyperparameter_earch.py -input_file .../data/fetus_mouse.txt --input_shape 202 107 1237 --DR_mode umap --n_components 3 --use_scribble 0 --output_file output
+    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
     
 # Contact
 
