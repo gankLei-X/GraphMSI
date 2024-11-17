@@ -41,15 +41,15 @@ cd to the GraphMSI fold
 
 If you want to perform cut-off selectin GUI, taking mouse kidney data as an example, run:
 
-    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --output_file output
+    python run.py --input_Matrix data/kidney.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --output_file output
 
 If you want to perfrom GraphMSI for unsupervised segmentation, taking mouse kidney data as an example, run:
 
-    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
+    python run.py --input_Matrix data/kidney.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
 
 If you want to perfrom GraphMSI with scribble-interactive mode, taking mouse fetus data as an example, run:
 
-    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
+    python run.py --input_Matrix data/fetus.csv --input_shape 437 241 --n_components 20 --use_scribble 1 --input_scribble data/scribble.txt --input_PeakList fetus.csv --output_file output
 
 If you want to perfrom GraphMSI with knowledge-transfer mode, taking 3D cancer cell spheroids (CCS) data as an example, run:
 
