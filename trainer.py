@@ -386,9 +386,9 @@ def Predicting(ori_data,args):
     result_label = np.array([c for c in im_target])
     im_target_rgb = im_target_rgb.reshape(m, n, 3).astype(np.uint8)
 
-    cv2.imwrite("segRef.png", im_target_rgb)
-    np.savetxt("segRef.csv", result_label,
-                       delimiter=',')
+    # cv2.imwrite("segRef.png", im_target_rgb)
+    # np.savetxt("segRef.csv", result_label,
+    #                    delimiter=',')
 
     return im_target
 
