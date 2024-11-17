@@ -29,6 +29,12 @@ Then, the spatial neighborhood graph is constructed based on the spot coordinate
     numpy >= 1.8.0
     
     umap == 0.5.1
+
+    scipy == 1.12.0
+
+    networkx == 3.1
+
+    sklearn == 1.4.1
     
 # Quickly start
 
