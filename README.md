@@ -33,7 +33,7 @@ Then, the spatial neighborhood graph is constructed based on the spot coordinate
 # Quickly start
 
 ## Input
-The input consists of preprocessed MSI data with a two-dimensional shape of [XY, P], where X and Y represent the pixel numbers of the horizontal and vertical coordinates of the MSI data, respectively, and P represents the number of ions. Especially, the scribble-interactive mode accepts an additional data with the same two-dimensional shape [XY, P], which contains biological context about the sample. The knowledge-transfer mode accepts another dataset with a two-dimensional shape of [M*N, P], where M and N represent the pixel numbers of the horizontal and vertical coordinates of the testing data.
+The input consists of preprocessed MSI data with a two-dimensional shape of [XY, P], where X and Y represent the pixel numbers of the horizontal and vertical coordinates of the MSI data, respectively, and P represents the number of ions. Especially, the scribble-interactive mode accepts an additional data with the same two-dimensional shape [XY, 1], which contains biological context about the sample. The knowledge-transfer mode accepts another dataset with a two-dimensional shape of [M*N, P], where M and N represent the pixel numbers of the horizontal and vertical coordinates of the testing data.
 
 ## Run GraphMSI model
 
