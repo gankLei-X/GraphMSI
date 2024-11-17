@@ -53,7 +53,7 @@ If you want to perfrom GraphMSI with scribble-interactive mode, taking mouse fet
 
 If you want to perfrom GraphMSI with knowledge-transfer mode, taking 3D cancer cell spheroids (CCS) data as an example, run:
 
-    python run.py --input_Matrix data/kidney_132_205.csv --input_shape 132 205 --n_components 20 --use_scribble 0 --input_PeakList kidney_peak.csv --output_file output
+    python run_ref.py --input_PMatrix Cell_Test.csv --input_Pshape 26 26 --input_Matrix Cell_Train.csv --input_shape 25 26 --n_components 20 --input_PeakList peak_21.csv --output_file output
     
 # Contact
 
