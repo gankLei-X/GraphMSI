@@ -20,7 +20,7 @@ Then, the spatial neighborhood graph is constructed based on the spot coordinate
 
     python == 3.5, 3.6 or 3.7
     
-    pytorch == 1.8.2
+    pytorch == 2.2.2
     
     opencv == 4.5.3
     
