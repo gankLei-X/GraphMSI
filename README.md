@@ -47,7 +47,7 @@ cd to the GraphMSI fold
 
 If you want to perform cut-off selectin GUI, taking mouse kidney data as an example, run:
 
-    python CutOFF.py --input_Matrix data/kidney.csv --input_shape 132 205 --n_components 20 --input_PeakList kidney_peak.csv --output_file output
+    python CutOFF.py --input_Matrix data/kidney.csv --input_shape 132 205 --n_components 20 --input_PeakList kidney_peak.csv
 
 If you want to perfrom GraphMSI for unsupervised segmentation, taking mouse kidney data as an example, run:
 
