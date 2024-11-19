@@ -19,22 +19,14 @@ Then, the spatial neighborhood graph is constructed based on the spot coordinate
 # Requirement
 
     python == 3.5, 3.6 or 3.7
-    
-    pytorch == 2.2.2
-    
-    opencv == 4.5.3
-    
-    matplotlib == 2.2.2
 
-    numpy >= 1.8.0
+    conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
     
-    umap == 0.5.1
+    conda install opencv 4.5.3 numpy 1.8.0 matplotlib 2.2.2 scipy 1.12.0 networkx 3.1
 
-    scipy == 1.12.0
+    conda install scikit-learn 1.4.1
 
-    networkx == 3.1
-
-    sklearn == 1.4.1
+    conda install umap-learn -c conda-forge
     
 # Quickly start
 
