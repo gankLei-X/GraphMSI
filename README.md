@@ -55,11 +55,11 @@ If you want to perfrom GraphMSI for unsupervised segmentation, taking mouse kidn
 
 If you want to perfrom GraphMSI with scribble-interactive mode, taking mouse fetus data as an example, run:
 
-    python run.py --input_Matrix data/fetus.csv --input_shape 437 241 --n_components 20 --use_scribble 1 --input_scribble data/scribble.txt --input_PeakList fetus.csv --output_file output
+    python run.py --input_Matrix data/fetus.csv --input_shape 437 241 --n_components 20 --use_scribble 1 --input_scribble data/scribble.txt --input_PeakList fetus_peak.csv --output_file output
 
 If you want to perfrom GraphMSI with knowledge-transfer mode, taking 3D cancer cell spheroids (CCS) data as an example, run:
 
-    python run_ref.py --input_PMatrix Cell_Test.csv --input_Pshape 26 26 --input_Matrix Cell_Train.csv --input_shape 25 26 --n_components 20 --input_PeakList peak.csv --output_file output
+    python run_ref.py --input_PMatrix Cell_Test.csv --input_Pshape 26 26 --input_Matrix Cell_Train.csv --input_shape 25 26 --n_components 20 --input_PeakList Cell_peak.csv --output_file output
     
 # Contact
 
